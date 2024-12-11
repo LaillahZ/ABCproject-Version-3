@@ -1,0 +1,28 @@
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-style: double; /* Light grey border for each cell */
+}
+
+/* Styling for table headers */
+th {
+    color: black;
+
+}
+
+/* Styling for price column */
+td:nth-child(2) {
+    text-align: right;
+}
+
+/* Styling for table rows on hover (no background color change, just border emphasis) */
+tr:hover {
+    border: 2px solid ; /* Highlight border when hovering over row */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    table {
+        width: 100%; /* Make the table full width on smaller screens */
+    }
+}
